@@ -1,0 +1,119 @@
+/********************************************
+ * General Layout                           *
+ ********************************************/
+
+body {
+    background-color: #353135;
+}
+
+@media (max-width: 1200px) {
+    .container { width: 100%; }
+}
+@media (min-width: 1200px) {
+    .container { width: 80%; }
+}
+
+.navbar {
+    padding: 2em 1em 2em 2em;
+    margin: 1em 1em 1em 1em;
+    border-radius: 0px;
+
+    background-color: #3873b3;
+}
+
+.col-md-4 {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.row {
+    margin: 0px 0px 0px 0px;
+}
+
+.column {
+    margin: 1em 1em 1em 1em;
+    padding: 3% 3% 3% 3%;
+    height: auto;
+
+    border-top: 0.5em solid #3873b3;
+
+    background-color: #252125;
+}
+
+.footer {
+    float: right;
+}
+
+.shadow {
+    box-shadow: 0.2em 0.3em 0.3em black;
+}
+
+/********************************************
+ * Text Styling                             *
+ ********************************************/
+
+* {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.02em;
+}
+
+a {
+    color: #3873b3;
+    font-weight: bold;
+    text-decoration: none; 
+}
+a:hover {
+    text-decoration: none; 
+}
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 4px;
+}
+h3 {
+    margin-top: 1%;
+    margin-bottom: 1%;
+
+    font-weight: bold;
+}
+h4 {
+    margin-bottom: 0px;
+}
+
+hr {
+    border-top: 1px solid #464646;
+}
+
+/********************************************
+ * Image styling                            *
+ ********************************************/
+
+#photo {
+    float: left;
+    height: 11em;
+
+    margin-top: 3px;
+    margin-right: 10px;
+}
+
+#github-icon {
+    height: 1em;
+}
+
+/********************************************
+ * Language Settings                        *
+ ********************************************/
+
+div#lang-links {
+    float: right;
+    margin-right: 2em;
+}
+
+#lang-links a {
+    color: white;
+}
+
+:lang(en) {
+    display: none;
+}
